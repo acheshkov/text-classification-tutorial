@@ -1,1 +1,1 @@
-# text-classification-tutorial
+# Text Classification Tutorial
