@@ -8,4 +8,5 @@ RUN pip install -r ./requirements.txt
 ENV ENVIRONMENT production
 
 COPY www/main.py www/__init__.py /app/
-COPY model/model.joblib /app/model.joblib
+COPY model/model.joblib.zip /app/model.joblib.zip
+RUN unzip model.joblib.zip
