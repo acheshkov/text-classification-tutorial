@@ -17,16 +17,23 @@ This repository shows how to get a baseline model for test classification task. 
 
 This repository also provides an example how to wrap your model in simple web API interface. For this purpose we use Flask and docker container.
 
-To build image 
+You can either use public image `acheshkov/text-clf` from docker hub or build your own. To build own put model file `model.joblib` to `model` folder:
 
 ```console
 $ docker build -t IMAGE_TAG_NAME .
 ```
 
-To run container specify port you need
+
+To run container specify port you need:
 
 ```console
 $ docker run -d -p PORT:80 IMAGE_TAG_NAME
+```
+
+or use existing image:
+
+```console
+$ docker run -d -p PORT:80 acheshkov/text-clf
 ```
 
 Since Web API deployed you can call it
