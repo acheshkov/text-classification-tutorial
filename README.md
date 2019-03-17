@@ -10,6 +10,8 @@ This repository shows how to get a baseline model for test classification task. 
 
 ## Jupyter Notebook 
 
+Here you can find a notebook with code to seek for a baseline model.
+
 * [Google Colab](https://colab.research.google.com/drive/18dq83Zs6pCdJiUiiL0h7d4o-vPZbK6vT)
 * [static view in this repo](https://github.com/acheshkov/text-classification-tutorial/blob/master/model/notebook.ipynb)
 
